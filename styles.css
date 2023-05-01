@@ -1,2 +1,22 @@
-
 /* Your CSS Code here. */
+.holder{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            font-size: 40px;
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+
+        }
+        .item-1{
+            background-color: green;
+        }
+        .item-2{
+            background-color: red;
+        }
+        .item-3{
+            background-color: blue;
+        }
